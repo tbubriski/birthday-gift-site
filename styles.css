@@ -12,12 +12,9 @@ body {
     color: #0A0A0A;
 }
 
-h1, h2, h3, h4, p {
-    /* text-shadow: 0 0 1px #207399; */
-}
 
 #bff-img {
-    width: 150px;
+    width: 250px;
     border-radius: 50%;
     border: 6px solid #131111;
     margin-bottom: 10px;
