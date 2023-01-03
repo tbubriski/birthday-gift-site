@@ -1,0 +1,117 @@
+@font-face {
+  font-family: DisneyFont;
+  src: url(NewWaltDisneyFontRegular-BPen.ttf);
+}
+
+body {
+    text-align: center;
+    font-family: 'DisneyFont', cursive;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    background: linear-gradient(#AAAAAA, #EFEFEF);
+    color: #0A0A0A;
+}
+
+h1, h2, h3, h4, p {
+    /* text-shadow: 0 0 1px #207399; */
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #131111;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFEFEF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFEFEF;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+@font-face {
+  font-family: DisneyFont;
+  src: url(sansation_light.woff);
+}
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy.webp");
+}
+
+#gift-img-funny:hover {
+    background-image: url("images/funny.gif");
+}
+
+#gift-img-brave:hover {
+    background-image: url("images/brave.gif");
+}
+
+#gift-img-silly:hover {
+    background-image: url("images/silly.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+    
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+    color: #0A0A0A;
+}
+
+a {
+    color: #0A0A0A;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
